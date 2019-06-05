@@ -1,0 +1,399 @@
+{
+  "dynamicActs": [  
+  {
+      "src": "act_diapers190508.jpg",
+      "href": "/zt/hd/diapers190508",
+      "text": "尿不湿",
+      "products": [
+        {
+          "productID": "22537891",
+          "productName": "日本花王（Merries）婴儿纸尿裤S82（4件装）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "23434903",
+          "productName": "日本花王（Merries）婴儿拉拉裤XL38 （3件装）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "22986397",
+          "productName": "日本花王（Merries）婴儿纸尿裤L54（4件装）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+    {
+      "src": "act_26.jpg",
+      "href": "/BrandStreet/Index/26",
+      "text": "凯朵",
+      "products": [
+        {
+          "productID": "21823661",
+          "productName": "KATE/凯朵顺滑眉笔 BK黑色",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "29581129",
+          "productName": "KATE/凯朵 幻色持久唇釉 保湿滋润染唇液 RD-1红色",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "23459864",
+          "productName": "KATE/凯朵暗夜亮泽眼影盒BR-2黄棕色3g",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_albion190423.jpg",
+      "href": "/zt/hd/albion190423",
+      "text": "ALBION澳尔滨",
+      "products": [
+        {
+          "productID": "26239552",
+          "productName": "Albion/奥碧虹 奥尔滨健康水330ml 爽肤精华液 健康水",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "28268630",
+          "productName": "日本ALBION奥碧虹/澳尔滨 爽肤精萃液110ml 健康水 补水去闭口粉刺祛痘",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "20353340",
+          "productName": "日本ALBION奥碧虹/澳尔滨 清新莹亮卸妆油200ml脸部深层清洁无刺激",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+    {
+      "src": "act_japanhouse190423.jpg",
+      "href": "/zt/hd/japanhouse190423",
+      "text": "日本进口家居",
+      "products": [
+        {
+          "productID": "25710454",
+          "productName": "日本进口LION狮王TOP强效洁净洗衣液900g强效除菌",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "20934708",
+          "productName": "日本进口LION狮王TOP持久香氛柔顺洗衣液(花果香型)900g",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "26158960",
+          "productName": "日本进口LION狮王TOP持久香氛柔顺洗衣液(洋甘菊香型)900g",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_sekksei190430.jpg",
+      "href": "/zt/hd/sekksei190430",
+      "text": "雪肌精",
+      "products": [
+        {
+          "productID": "20428221",
+          "productName": "日本Kose/雪肌精净透洗颜霜130ml 深层清洁保湿提亮肤色",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "25652474",
+          "productName": "日本Kose/雪肌精化妆水180ml清润型 收敛白皙爽肤水雪水补水保湿",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "26100980",
+          "productName": "日本Kose/雪肌精乳液130ml清润型 经典美白淡斑补水保湿提亮肤色",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_esteelauder1011_31.jpg",
+      "href": "/zt/hd/esteelauder1011",
+      "text": "雅诗兰黛",
+      "products": [
+        {
+          "productID": "25476967",
+          "productName": "雅诗兰黛专研紧塑精华素 50ml（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "26656605",
+          "productName": "雅诗兰黛肌透修护眼部精华露 小棕瓶肌透修护眼部精华露 15ml 淡化黑眼圈（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "29796148",
+          "productName": "美国雅诗兰黛特润精华露II  小棕瓶面部精华 ANR即时修护特润精华露II 100ml 大容量限定版 （保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    }, 
+  {
+      "src": "act_topcosmetics1901_31.jpg",
+      "href": "/zt/hd/topcosmetics1901",
+      "text": "TOP彩妆热销榜单",
+      "products": [
+        {
+          "productID": "23043594",
+          "productName": "肌肤之钥防晒霜隔离乳 SPF50+/PA++++ 50ml国际版 修护抗老（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "20925866",
+          "productName": "日本资生堂CPB肌肤之钥钻光隔离霜国际版 36ml隔离霜遮瑕保湿（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "20900905",
+          "productName": "纪梵希轻盈无痕明星四色散粉定妆粉#7（白色+粉色+米色+淡粉色）12g 遮瑕持妆（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_lyf190429.jpg",
+      "href": "/zt/hd/lyf190429",
+      "text": "零食补给站",
+      "products": [
+        {
+          "productID": "27845084",
+          "productName": "亚米 全脂牛奶250ml*10盒",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "23069338",
+          "productName": "亚米 圣塔菲奥拉天然矿泉水 500ml*24瓶",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "28293590",
+          "productName": "亚米 椰子水330ml*12瓶",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_8_31.jpg",
+      "href": "/BrandStreet/Index/8",
+      "text": "汤姆福特 Tom Ford",
+      "products": [
+        {
+          "productID": "28816195",
+          "productName": "汤姆福特TF黑金黑管唇膏#10CHERRY LUSH 3g 莓果色 滋润保湿持久上色（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "21507234",
+          "productName": "汤姆福特TF黑金黑管唇膏 MATTE#40FETISHIST 3g 梅子色 滋润保湿持久上色（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "25543790",
+          "productName": "汤姆福特TF黑金黑管唇膏#04RAVENOUS 3.5g 珊瑚橘 滋润保湿持久上色（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    }, 
+  {
+      "src": "act_annualperfume1901.jpg",
+      "href": "/zt/hd/annualperfume1901",
+      "text": "年度香水口碑推荐",
+      "products": [
+        {
+          "productID": "26175079",
+          "productName": "马克雅克布梦境雏菊女士淡香水50ml 女士淡香水清新持久（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "22113562",
+          "productName": "圣罗兰反转巴黎女士淡香水EDT50ml（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "22744851",
+          "productName": "祖玛珑野生蓝风铃香水100ml 清新淡雅（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_33_31.jpg",
+      "href": "/BrandStreet/Index/33",
+      "text": "纪梵希",
+      "products": [
+        {
+          "productID": "22977555",
+          "productName": "纪梵希小羊皮唇膏#304 3.4g 粉橘色（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "25418987",
+          "productName": "纪梵希花舞倾城女士香水 50ml 粉色淡香（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "28650314",
+          "productName": "纪梵希小羊皮唇膏#306 3.4g 番茄红（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_82_31.jpg",
+      "href": "/BrandStreet/Index/82",
+      "text": "LAMER/海蓝之谜",
+      "products": [
+        {
+          "productID": "27794380",
+          "productName": "海蓝之谜修护唇霜 9g 丰盈滋润防脱皮祛唇（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "23915646",
+          "productName": "海蓝之谜倍添紧致露 15ml 局部紧致提拉（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "29588405",
+          "productName": "海蓝之谜鎏光焕变气垫粉底液 SPF20#Warm Porcelain 24g 暖瓷白（保税仓发货）",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+
+
+
+  {
+      "src": "act_3chenes190507.jpg",
+      "href": "/zt/hd/3chenes190507",
+      "text": "法国3chenes三橡树染发专场",
+      "products": [
+        {
+          "productID": "25627513",
+          "productName": "法国3chenes三橡树染发剂（原产国：西班牙）天然无刺激染发膏 COLOR & SOIN  1N-乌木黑",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "20851767",
+          "productName": "法国3chenes三橡树染发剂（原产国：西班牙）天然无刺激染发膏 COLOR & SOIN  3N-暗栗色",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "26076020",
+          "productName": "法国3chenes三橡树染发剂（原产国：西班牙）天然无刺激染发膏 COLOR & SOIN  4B-布朗尼",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    },
+  {
+      "src": "act_houseclean190114.jpg",
+      "href": "/zt/hd/houseclean190114",
+      "text": "拒绝陈旧 一扫到底",
+      "products": [
+        {
+          "productID": "22892266",
+          "productName": "波兰Vanish渍无踪 水晶去渍亮白粉1kg",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "27668012",
+          "productName": "波兰Vanish渍无踪 炫氧魔力净去渍粉 1kg",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        },
+        {
+          "productID": "26398940",
+          "productName": "德国EDEKA艾德卡净白鲜艳洗衣液 1.5L",
+          "marketPrice": "1",
+          "salePrice": "1",
+          "storage": "1"
+        }
+      ]
+    }
+  ]
+}

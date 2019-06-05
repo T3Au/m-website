@@ -1,0 +1,35 @@
+{
+  "category": [
+    {
+      "text": "护 肤",
+      "href": "/zt/hd/hfg2018",
+      "src": "nav_care.png"
+    },
+    {
+      "text": "彩 妆",
+      "href": "/zt/hd/mzg2019",
+      "src": "nav_beauty.png"
+    },
+	    {
+      "text": "大牌街",
+      "href": "/BrandStreet/Brands",
+      "src": "nav_brand.png"
+    }
+  ],
+  "channel": [
+    {
+      "text": "新人专享",
+      "href": "/zt/hd/newmembers",
+      "src": "nav_group.png"
+    },
+    {
+      "text": "车管家",
+      "href": "/zt/hd/atgthome",
+      "src": "nav_atgt.png"
+    },{
+      "text": "电器馆",
+      "href": "/zt/hd/eahome",
+      "src": "nav_ea.png"
+    }
+  ]
+}

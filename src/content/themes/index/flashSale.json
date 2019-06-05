@@ -1,0 +1,109 @@
+{
+  "flashSale": [
+    {
+      "category": "数码家电",
+      "products": [
+        {"productID":"26699249","productName":"美的电风扇 FS40-18C","marketPrice":"199","salePrice":"199","productTag":"包邮","storage":"1"},
+        {"productID":"21474997","productName":"格力电风扇 FD-4021","marketPrice":"219","salePrice":"219","productTag":"包邮","storage":"1"},
+        {"productID":"24295765","productName":"日本TESCOM 负离子直发梳卷发棒神器不伤发两用电卷吹风梳机BICC40","marketPrice":"269","salePrice":"259","productTag":"包邮","storage":"1"},
+        {"productID":"23847258","productName":"Tescom电吹风机水负离子恒温美发胶原蛋白不伤发TCD4000","marketPrice":"599","salePrice":"569","productTag":"包邮","storage":"1"},
+        {"productID":"22501740","productName":"雅萌（YA-MAN)雅萌yaman射频嫩肤美容仪HRF-10T10tpro","marketPrice":"2699","salePrice":"2599","productTag":"包邮","storage":"1"},
+        {"productID":"23166048","productName":"科沃斯 智能预约 静音设计扫地机器人CEN333","marketPrice":"999","salePrice":"999","productTag":"包邮","storage":"1"},
+        {"productID":"22211056","productName":"弗兰卡24CM汤锅红柄防烫把手","marketPrice":"298","salePrice":"198","productTag":"包邮","storage":"1"},
+        {"productID":"29356484","productName":"九阳铁釜IH电饭煲 I40FS31","marketPrice":"399","salePrice":"399","productTag":"包邮","storage":"1"},
+        {"productID":"25029244","productName":"九阳榨汁机 L6-C5","marketPrice":"199","salePrice":"199","productTag":"包邮","storage":"1"},
+        {"productID":"21150510","productName":"苏泊尔破壁料理机 JP57-800//2","marketPrice":"799","salePrice":"699","productTag":"包邮","storage":"1"}
+        ]
+    },
+    {
+      "category": "大牌推荐",
+      "products": [
+        {"productID":"24090370","productName":"雅诗兰黛奇迹丰盈精华露50ml（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"26822486","productName":"兰蔻小黑瓶精华肌底液 30ml（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"27711439","productName":"日本资生堂CPB肌肤之钥水磨精华液美容液国际版 170ml（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"28608452","productName":"日本资生堂REVITAL悦薇洁面乳滋润型国际版 125ml国际版（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"22877713","productName":"圣罗兰黑丝缎保湿隔离妆前乳40ml 遮瑕保湿美白（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"26208098","productName":"圣罗兰明彩轻垫粉底液  羽毛气垫墨水气垫哑光妆感遮瑕#10 14g（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"22778654","productName":"悦木之源活性炭毛孔净透面膜 100ml*2 泥娃娃毛孔净透清洁（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24996224","productName":"诗狄娜12色眼影12g matte'n metal  大地色哑光+珠光（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24937461","productName":"汤姆福特TF黑金黑管唇膏#85FOXFIRE 3g 滋珊瑚色 润保湿持久上色（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"28974017","productName":"香奈儿可可小姐唇膏水亮系列#84 3g 梅子色（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"}
+        ]
+    },
+    {
+      "category": "母婴儿童",
+      "products": [
+        {"productID":"29162511","productName":"LEO ANGEL(狮子座天使）婴儿纸尿裤L号5片装*2盒","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"23938258","productName":"LEO ANGEL(狮子座天使）婴儿纸尿裤M号5片装*2盒","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"21781016","productName":"狮子座天使（Leo Angel） 护梦天使金装超薄透气干爽小内裤XL54（12-17kg）【两包起购】","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"23434903","productName":"日本花王（Merries）婴儿拉拉裤XL38 （3件装）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24563054","productName":"EG(edger) 爱德嘉拉拉裤XXL26","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"20983846","productName":"Wyeth illuma惠氏启赋一阶段婴儿配方奶粉900g（2件装） （区域限购产品）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"25759592","productName":"Wyeth illuma惠氏启赋一阶段婴儿配方奶粉400g（2件装） （区域限购产品）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"20086833","productName":"Wyeth illuma惠氏启赋四阶段学龄前儿童配方奶粉900g（2件装） （区域限购产品）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"26456921","productName":"德国CONCORD康科德 变形金刚X-BAG儿童安全座椅 3-12岁玫瑰粉（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"25494652","productName":"沃思克尼 儿童洗衣液1.625L","salePrice":"","productTag":"包邮","storage":"1"}
+        ]
+    },
+  {
+      "category": "进口奶粉",
+      "products": [
+        {"productID":"21297142","productName":"英国Cow&Gate牛栏婴儿奶粉4段（2-3周岁宝宝）800g(保税仓发货)（6件装）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"24328784","productName":"新西兰A2 Platinum酪蛋白婴儿奶粉 3段（1-3周岁宝宝）900g（6件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"24910152","productName":"英国爱他美Aptamil白金版婴幼儿奶粉1段800g(保税仓发货)（6件装）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"28064249","productName":"新西兰A2 Platinum酪蛋白婴儿奶粉 2段(6-12个月宝宝) 900g（2件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"29951622","productName":"荷兰Nutrilon牛栏 奶粉 4段(12-24个月宝宝)800g（6件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"25175876","productName":"荷兰Nutrilon牛栏 奶粉 5段(24-36个月宝宝)800g（6件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"27841953","productName":"荷兰Nutrilon牛栏 奶粉 3段(10-12个月宝宝)800g（4件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"29237392","productName":"德国Aptamil爱他美白金版PRE段婴儿奶粉 800g(保税仓发货)（6件装）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"20981497","productName":"德国Aptamil爱他美 奶粉 2段(6-10个月宝宝)800g（6件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+  {"productID":"26205750","productName":"德国Aptamil爱他美 奶粉 3段(10-12个月宝宝)800g（6件装）（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"}
+        ]
+    },
+    {
+      "category": "美妆护肤",
+      "products": [
+        {"productID":"22467937","productName":"韩国whoo后天气丹花献光彩紧颜系列水乳霜6件套礼盒308ml(霜25ml+水150ml+乳110ml+精华8ml+霜10ml+眼霜5ml）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24664461","productName":"韩国婵真信天翁防晒霜50ml 温和防水隔离素颜霜SPF50+林允推荐","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"27197677","productName":"韩国婵真银杏清爽盈润洁面水250ml 温和清洁 水润不油腻","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"21001530","productName":"日本明色胎盘素美白眼霜30g（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"22720673","productName":"KATE/凯朵顺滑眉笔 BR-3棕色","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24016271","productName":"Coppertone确美同/水宝宝纯净防晒乳SPF30+PA+++237ml 温和纯净","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"25184718","productName":"freeplus 芙丽芳丝净润洗面霜100g 深层清洁 氨基酸洗面奶","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"25220869","productName":"法国D`LARON/迪拉瑞女士热情香水喷雾150ml 淡香氛清新自然","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"20104517","productName":"日本凡尔赛玫瑰面膜 红 27ml/片（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"23401883","productName":"日本资生堂 睫毛夹 213号（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"}
+        ]
+    },
+    {
+      "category": "个护生活",
+      "products": [
+        {"productID":"20893629","productName":"日本MEG理想植物酵素洗剤I love mama500ml 宝宝洗衣液温和不刺激","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"27936084","productName":"N-SOL伊莎贝拉—水漾蛋白香氛洗发乳（头皮油腻发质适用）A9 780ml","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"29214780","productName":"意大利东方宝石 白麝香靓肤淋浴乳250ml男女滋润香体","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24813442","productName":"日本进口COW牛牌牛乳低刺激滋润花香香皂红盒100g*3","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"22953377","productName":"日本资生堂0秒沙龙发膜180g金色（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"28143044","productName":"COCO水润蛋白去屑止痒香氛洗发乳C7 750ml 控油去屑","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"29280820","productName":"护手霜 德国Kamill卡蜜儿小洋甘菊滋润护手霜/美甲霜 100ml (2 件起购)（保税仓发货）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"23177239","productName":"日本进口LION狮王 KID`S儿童牙膏 米奇 60g*2支 葡萄味","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"29298504","productName":"日本进口Kao花王新蒸汽眼罩12片 薰衣草香","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"23235219","productName":"慕纯纸品组合装 慕纯127软抽（6包装）*3+慕纯手帕（12包装）","salePrice":"","productTag":"包邮","storage":"1"}
+        ]
+    },
+    {
+      "category": "食品保健",
+      "products": [
+        {"productID":"28941781","productName":"真真老老   粽情山水   永恒真礼  礼盒装1kg（10种口味）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"23717528","productName":"真真老老  感恩礼粽 特惠 礼盒1kg","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"22372009","productName":"成都冠生园  中华龙粽 1.94kg","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"20004675","productName":"红心火龙果 一级 五斤（仅限重庆主城区域）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24780422","productName":"枇杷 特大果 四斤（仅限重庆主城区域）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"28651097","productName":"安岳柠檬 二级 3斤（仅限重庆主城区域）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"24331916","productName":"泰国榴莲 A级 4-5斤（仅限重庆主城区域）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"20251932","productName":"North Shore Fishery 北洋海产 野生北大西洋海参340g*2袋（顺丰快递）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"26050276","productName":"倍禧澳洲牛小米龙0.5kg（仅限重庆主城区域）","salePrice":"","productTag":"包邮","storage":"1"},
+        {"productID":"29190603","productName":"亚米 比利时扁桃仁薄脆饼干100g*2盒+亚米 比利时黄油薄脆饼干100g*2盒","salePrice":"","productTag":"包邮","storage":"1"}
+        ]
+    }
+  ]
+}

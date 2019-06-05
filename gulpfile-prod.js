@@ -60,13 +60,9 @@ function copyimages(){
     return src("./src/images/**/*")
         .pipe(dest("./dist/images"))
 }
-function copyicons(){
-    return src("./src/icons/**/*")
-        .pipe(dest("./dist/icons"))
-}
 function revCol(){
     return src(['./rev/**/*.json', './dist/*.html'])
         .pipe(revCollector())
         .pipe(dest('./dist'));
 }
-exports.default = series(parallel(packcss,packjs,copylibs,copyimages,copyicons),copyhtml,revCol)
+exports.default = series(parallel(packcss,packjs,copylibs,copyimages),copyhtml,revCol)

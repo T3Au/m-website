@@ -1,0 +1,74 @@
+{
+  "slider": [
+    {
+      "text": "年中庆狂潮",
+      "src": "midyear2019main.jpg",
+      "href": "/zt/hd/midyear2019main",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "重百家电节",
+      "src": "eaf1906s.jpg",
+      "href": "/zt/hd/eahome",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "超级秒杀",
+      "src": "midyear2019seckill.jpg",
+      "href": "/zt/hd/midyear2019seckill",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "王牌PK",
+      "src": "midyear2019pk.jpg",
+      "href": "/zt/hd/midyear2019pk",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "美妆分会场",
+      "src": "midyear2019cosmetic.jpg",
+      "href": "/zt/hd/midyear2019cosmetic",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "母婴分会场",
+      "src": "midyear2019baby.jpg",
+      "href": "/zt/hd/midyear2019baby",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "个护分会场",
+      "src": "midyear2019care.jpg",
+      "href": "/zt/hd/midyear2019care",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "食品保健分会场",
+      "src": "midyear2019food.jpg",
+      "href": "/zt/hd/midyear2019food",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "浓情端午",
+      "src": "dragonboat2019.jpg",
+      "href": "/zt/hd/dragonboat2019",
+      "startTime": "2019/05/30 00:00:00",
+      "endTime": "2019/06/17 00:00:00"
+    },
+    {
+      "text": "新会员首单福利",
+      "src": "newmembers1229.jpg",
+      "href": "/zt/hd/newmembers",
+      "startTime": "2019/02/12 00:00:00",
+      "endTime": "2019/11/19 00:00:00"
+    }
+  ]
+}

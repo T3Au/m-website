@@ -1,11 +1,12 @@
-const name = require("./controllers/name.js")
-const aaTpl = require("./views/index.html")
-// name.a().then((xx)=>{
-//     console.log(xx)
-// })
-async function abc(){
-    let xxx = await name.a()
-    console.log(xxx)
+const index = require("./controllers/index")
+const {slider} = require("./modules/loadData")
+const swiper =  require("./controllers/swiper")
+index.readerIndex()
+async function reader(){
+    console.log(1)
+    var data = await slider()
+    console.log(data)
+    index.readerIndexSwiper(data)
 }
-const newStr = template.render(aaTpl, {title: "ccc"},)
-console.log(newStr)
+reader()
+swiper.swiper()

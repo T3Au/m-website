@@ -44,7 +44,7 @@ function packjs(){
                         }
                     },
                     { 
-                        test: /\.art$/,
+                        test: /\.html$/,
                         loader: "string-loader" 
                     }
                 ]
@@ -60,32 +60,28 @@ function copyimages(){
     return src("./src/images/**/*")
         .pipe(dest("./dev/images"))
 }
-function copyicons(){
-    return src("./src/icons/**/*")
-        .pipe(dest("./dev/icons"))
-}
 function watcher(){
     watch("./*.html",series(clear("./dev/*.html"),copyhtml))
     watch("./src/styles/**/*",series(clear("./dev/styles"),packcss))
-    watch(["./src/app.js","./src/controllers/**/*","./src/views/**/*"],series(clear("./dev/scripts"),packjs))
+    watch(["./src/app.js","./src/controllers/**/*","./src/views/**/*","./src/modules/**/*","./src/router/**/*"],series(clear("./dev/scripts"),packjs))
     watch("./src/libs/**/*",series(clear("./dev/libs"),copylibs))
     watch("./src/images/**/*",series(clear("./dev/images"),copyimages))
-    watch("./src/icons/**/*",series(clear("./dev/icons"),copyicons))
 }
 function server(){
     return src("./dev")
         .pipe(webserver({
+            host: "10.9.65.159",
             port: 8000,
             livereload: true,
             middleware: [
-                proxy("/sjgo_navbar",{
-                    target: "http://m.sjgo365.com/Content/themes/index/json/navbar.json",   //源
-                    changeOrigin: true, //访问不同的域名，需要配置成ture，loaclhost跨接口不需要
+                proxy("/sjgo",{
+                    target: "http://m.sjgo365.com",
+                    changeOrigin: true,
                     pathRewrite: {
-                        "^/sjgo_navbar" : ""    //清除请求头
+                        "^/sjgo": ""
                     }
                 })
             ]
         }))
 }
-exports.default = series(parallel(packcss,packjs,copylibs,copyimages,copyicons),copyhtml,server,watcher)
+exports.default = series(parallel(packcss,packjs,copylibs,copyimages),copyhtml,server,watcher)
