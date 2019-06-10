@@ -1,0 +1,38 @@
+.container{
+    height: 100%;
+    .details{
+        height: 100%;
+        @include flex(column);
+        > header{
+            height: 0.53rem;
+            background-color: #da322f;
+            position: relative;
+            span{
+                position: absolute;
+                left: 0.2rem;
+                height: 100%;
+                i{
+                    color: #FFF;
+                    height: 0.53rem;
+                    line-height: 0.53rem;
+                    font-size: 0.24rem;
+                }
+            }
+            h2{
+                font-size: 0.2rem;
+                color: #fff;
+                font-weight: normal;
+                text-align: center;
+                height: 0.53rem;
+                line-height: 0.53rem;
+            }
+        }
+        main{
+            flex: 1;
+        }
+        footer{
+            height: 0.5rem;
+            background: #000;
+        }
+    }
+}

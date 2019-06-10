@@ -1,11 +1,23 @@
-function slider(){  
+function loadData(u,d = null){  
     return $.ajax({
-        url: "/sjgo/Content/themes/index/json/slider.json",
+        url: u,
+        data: d,
+        success(res){
+            return res
+        }
+    })
+}
+function loadProduct(u,d = null){
+    return $.ajax({
+        url: u,
+        type: "POST",
+        data: d,
         success(res){
             return res
         }
     })
 }
 module.exports = {
-    slider
+    loadData,
+    loadProduct
 }

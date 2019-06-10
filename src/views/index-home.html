@@ -1,0 +1,59 @@
+<header>
+    <header>
+        <span><i class="iconfont icon-sort"></i></span>
+        <img src="images/index/logo/sjg_logo.png" alt="">
+        <span>登录</span>
+    </header>
+    <form action="" method="GET">
+        <input type="text">
+        <span><i class="iconfont icon-search"></i></span>
+    </form>
+</header>
+<main>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {{each slider}}
+            <div class="swiper-slide"><img src="http://m.sjgo365.com/Content/themes/index/images/{{$value.src}}" alt=""></div>
+            {{/each}}
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <nav>
+        <ul class="mainNav-1">
+            {{each navbar.category}}
+            <li><a href="">
+                <img src="http://m.sjgo365.com/Content/themes/index/images/{{$value.src}}" alt="">
+                <p>{{$value.text}}</p>
+            </a></li>
+            {{/each}}
+        </ul>
+        <ul class="mainNav-2">
+            {{each navbar.channel}}
+            <li><a href="">
+                <img src="http://m.sjgo365.com/Content/themes/index/images/{{$value.src}}" alt="">
+                <p>{{$value.text}}</p>
+            </a></li>
+            {{/each}}
+        </ul>
+    </nav>
+    <div class="select">
+        <h2><span>全球优选限时购</span></h2>
+        <ul>
+            {{each flashSale}}
+            <li>{{$value.category}}
+                <ul>
+                    {{each products[$index].data}}
+                    <li><a href="#details?{{$value.productID}}">
+                        <img src="http://img.sjgo365.com/ProductImage220/{{$value.productID}}.jpg" alt="">
+                        <div>
+                            <h3>{{$value.productName}}</h3>
+                            <span>￥{{$value.currentPrice}}</span>
+                        </div>
+                    </a></li>
+                    {{/each}}
+                </ul>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</main>
