@@ -1,0 +1,20 @@
+{{each data.products}}
+    {{if $value.productTag === "包邮"}}
+        <li><a href="#details?{{$value.productID}}">
+            <img src="http://img.sjgo365.com/ProductImage220/{{$value.productID}}.jpg" alt="">
+            <div>
+                <h3>{{$value.productName}}</h3>
+                <span class="currentPrice">￥</span>
+                <p><span>包邮</span></p>
+            </div>
+        </a></li>
+    {{else if $value.productTag === ""}}
+        <li><a href="#details?{{$value.productID}}">
+            <img src="http://img.sjgo365.com/ProductImage220/{{$value.productID}}.jpg" alt="">
+            <div>
+                <h3>{{$value.productName}}</h3>
+                <span class="currentPrice">￥</span>
+            </div>
+        </a></li>
+    {{/if}}
+{{/each}}

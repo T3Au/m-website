@@ -1,0 +1,335 @@
+.container{
+    height: 100%;
+    .index{
+        height: 100%;
+        @include flex(column);
+        .index-main{
+            flex:1;
+            overflow: hidden;
+            .index-home{
+                height: 100%;
+                @include flex(column);
+                > header{
+                    height: 0.76rem;
+                    padding: 8px;
+                    background: #f41c35;
+                    @include flex(column);
+                    > header{
+                        flex: 1;
+                        @include flex(null,null,space-between,center);
+                        span:first-child{
+                            display: inline-block;
+                            width: 0.3rem;
+                            height: 0.24rem;
+                            color: #ffffff;
+                            line-height: 0.24rem;
+                            i{
+                                font-size: 0.20rem;
+                            }
+                        }
+                        span:last-child{
+                            display: inline-block;
+                            width: 0.3rem;
+                            height: 0.24rem;
+                            text-align: right;
+                            color: #ffffff;
+                            font-size: 0.14rem;
+                            line-height: 0.24rem;
+                        }
+                        img{
+                            height: 0.22rem;
+                            align-self: flex-start;
+                        }
+                    }
+                    > form{
+                        flex: 1;
+                        position: relative;
+                        input{
+                            width: 100%;
+                            height: 100%;
+                            padding: 0 0.3rem;
+                            outline: none;
+                            border: none;
+                            border-radius: 0.05rem;
+                        }
+                        span{
+                            display: inline-block;
+                            width: 0.3rem;
+                            height: 0.3rem;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            color: #ccc;
+                            text-align: center;
+                            i{
+                                font-size: 0.18rem;
+                                line-height: 0.30rem;
+                            }
+                        }
+                    }
+                }
+                > main{
+                    flex: 1; 
+                    background: #f5f5f5;
+                    overflow: hidden;
+                    >div{
+                        min-height: 105%;
+                        .swiper-container{
+                            width: 100%; 
+                            .swiper-slide{
+                                img{
+                                    width: 100%; 
+                                }
+                            }
+                        }
+                        >nav{
+                            height: 1.8rem;
+                            @include flex(column);
+                            background: #fefefe;
+                            ul{
+                                flex:1;
+                                @include flex();
+                                li{
+                                    flex: 1;
+                                    height: 100%;
+                                    a{
+                                        @include flex(column,null,center,center);
+                                        width: 100%;
+                                        height: 100%;
+                                        img{
+                                            width: 50px;
+                                            height: 50px;
+                                            border-radius: 50%;
+                                        }
+                                        p{
+                                            height: 22px;
+                                            font-size: 14px;
+                                            padding-top: 5px;
+                                            text-align: center;
+                                            color: #666;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .select{
+                            h2{
+                                padding: 0.072rem;
+                                margin-top: 0.072rem;
+                                font-size: 0.18rem;
+                                height: 0.4rem;
+                                line-height: 0.26rem;
+                                text-align: center;
+                                background: #fefefe;
+                                @include flex(null,null,space-around,center);
+                                &::before{
+                                    content: "";
+                                    width: 0.72rem;
+                                    height: 0;
+                                    border-bottom: 1px solid#333;
+                                }
+                                &::after{
+                                    content: "";
+                                    width: 0.72rem;
+                                    height: 0;
+                                    border-bottom: 1px solid#333;                            
+                                }
+                            }
+                            .flashSaleNav{
+                                height: 30px;
+                                @include flex();
+                                @include border((2px 0 0 0),#eee,solid);
+                                background: #fefefe;
+                                > li{
+                                    flex: 1;
+                                    border-right: 1px solid #eee;
+                                    text-align:center;
+                                    color: #666;
+                                    font-size: 12px;
+                                    padding-top: 5px;
+                                }
+                                li:last-child{
+                                    border: none;
+                                }
+                                li.active{
+                                    border-bottom: 3px solid #e94a3e;
+                                }
+                            }
+                            .flashSaleMain{
+                                background:#fefefe; 
+                                li{
+                                    @include border((0 0 2px 0),#eee,solid);
+                                    a{
+                                        display: block;
+                                        height: 150px;
+                                        @include flex(null,null,flex-start, flex-start);
+                                        img{
+                                            height: 150px; 
+                                        }
+                                        div{
+                                            flex: 1;
+                                            padding: 0 11px;
+                                            h3{
+                                                margin-top: 12px;
+                                                font-size: 12px;
+                                                font-weight: normal;
+                                                line-height: 20px;
+                                                color: #444;
+                                                text-align: left;
+                                                height: 45px;
+                                                @include ellipsis(null,2);
+                                            }
+                                            > span{
+                                                display: block;
+                                                font-size: 22px;
+                                                font-weight: bold;
+                                                color: #e94a3e;
+                                                text-align: left;
+                                            }
+                                            p{
+                                                @include border((2px 0 0 0),#eee,solid);
+                                                padding: 5px 0;
+                                                text-align: left;
+                                                span{
+                                                    display: inline-block;
+                                                    @include border(1px,#e9903e,solid,3px);
+                                                    color: #e9903e;
+                                                    font-size: 12px;
+                                                    padding: 1px 5px;
+                                                    height: 20px;
+                                                    line-height: 20px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .dynamicActs{
+                            h2{
+                                padding: 0.072rem;
+                                margin-top: 0.072rem;
+                                font-size: 0.18rem;
+                                height: 0.4rem;
+                                line-height: 0.26rem;
+                                text-align: center;
+                                background: #fefefe;
+                                @include flex(null,null,space-around,center);
+                                &::before{
+                                    content: "";
+                                    width: 0.72rem;
+                                    height: 0;
+                                    border-bottom: 1px solid#333;
+                                }
+                                &::after{
+                                    content: "";
+                                    width: 0.72rem;
+                                    height: 0;
+                                    border-bottom: 1px solid#333;                            
+                                }
+                            }
+                            ul{
+                                background: #fefefe;
+                                > li{
+                                    > a{
+                                        display: block;
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                    ul{
+                                        @include flex();
+                                        li{
+                                            flex: 1;
+                                            padding: 7px;
+                                            a{
+                                                display: block;
+                                                height: 100%;
+                                                img{
+                                                    width: 100%;
+                                                }
+                                                p{
+                                                    height: 35px;
+                                                    font-size: 12px;
+                                                    line-height: 18px;
+                                                    color: #666;
+                                                    @include ellipsis(null,2);
+                                                }
+                                                span{
+                                                    display: block;
+                                                    text-align: center;
+                                                    line-height: 30px;
+                                                    font-size: 20px;
+                                                    font-weight: bold;
+                                                    color: #e94a3e;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } 
+                .returnTop{
+                    position: fixed;
+                    width: 0.4rem;
+                    height: 0.4rem;
+                    right: 0.1rem;
+                    bottom: 1.5rem;
+                    cursor: pointer;
+                    display: none;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
+                }  
+            }
+        }
+        > nav{
+            height: 0.5rem; 
+            background: #fff;
+            @include border((1px 0 0 0),#e7e7e7,solid);
+            ul{
+                @include flex();
+                li{
+                    flex: 1; 
+                    height: 100%;
+                    a{
+                        text-align: center; 
+                        color: #434343; 
+                        font-size: 0.12rem;
+                        height: 100%; 
+                        position: relative;
+                        @include flex(column,"",center,center);
+                        span{
+                            i{
+                                font-size: 0.2rem; 
+                                color: #434343;
+                            }
+                        }
+                        img{
+                            height: 0.6rem;
+                            position: absolute;
+                            left: auto;
+                            right: auto;
+                            top: -0.1rem;
+                            z-index: 1000;
+                        }
+                    }
+                }
+                li.active{
+                    a{
+                        color: #F13030;
+                        span{
+                            i{
+                                color: #F13030;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 const indexHomeSlider = require("../../views/index-home/slider.html")
-import loadData from "../modules/loadData"
-function reader(){
+import loadData from "../../modules/loadData"
+async function reader(){
     let slider = await loadData.loadData("/sjgo/Content/themes/index/json/slider.json")
     const indexHomeSliderStr = template.render(indexHomeSlider,{slider})
     $(".swiper-container").html(indexHomeSliderStr)

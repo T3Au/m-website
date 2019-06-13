@@ -1,0 +1,17 @@
+<h2>更多活动</h2>
+<ul>
+    {{each dynamicActs}}
+    <li>
+        <a href=""><img src="http://m.sjgo365.com/Content/themes/index/images/{{$value.src}}" alt=""></a>
+        <ul>
+            {{each $value.products}}
+            <li><a href="#details?{{$value.productID}}">
+                <img src="http://img.sjgo365.com/ProductImage220/{{$value.productID}}.jpg" alt="">
+                <p>{{$value.productName}}</p>
+                <span class="currentPrice2"></span>
+            </a></li>
+            {{/each}}
+        </ul>
+    </li>
+    {{/each}}
+</ul>

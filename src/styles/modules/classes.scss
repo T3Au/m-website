@@ -1,14 +1,14 @@
-@mixin flex($flex-direction: row,$flex-wrap: nowrap,$justify-content: "",$align-items: "",$align-content: ""){
+@mixin flex($flex-direction: row,$flex-wrap: nowrap,$justify-content: null,$align-items: null,$align-content: null){
     display: flex;
     flex-direction: $flex-direction;
     flex-wrap: $flex-wrap;
-    @if $justify-content != "" {
+    @if $justify-content != null {
         justify-content: $justify-content;
     }
-    @if $align-items != "" {
+    @if $align-items != null {
         align-items: $align-items;
     }
-    @if $align-content != "" {
+    @if $align-content != null {
         align-content: $align-content;
     }
 }

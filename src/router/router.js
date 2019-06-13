@@ -51,7 +51,6 @@ class Router {
                 }else if(this.pathList[index] != oldURLList[index]){
                     parent += `/${this.pathList[index]}`
                     child = parent.slice(1)
-                    console.log(1)
                     this.controllers(child)
                 }
             })

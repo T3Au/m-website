@@ -29,10 +29,160 @@
         }
         main{
             flex: 1;
+            overflow: hidden;
+            .detailsMain{
+                width: 100%;
+                min-height: 105%;
+                .swiper-container{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .title{
+                    padding: 10px 20px;
+                    p{
+                        text-align: left;
+                        color: #646464;
+                        font-size: 16px;
+                        line-height: 28px;
+                        height: 56px;
+                        @include ellipsis(null,2);
+                    }
+                    div{
+                        color: #da322f;
+                        strong{
+                            display: inline-block;
+                            font-size: 20px;
+                            line-height: 2px;
+                            vertical-align: baseline;
+                        }
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+                    > span{
+                        display: block;
+                        font-size: 12px; 
+                    }
+                }
+                .comment{
+                    a{
+                        display: block;
+                        padding: 10px;
+                        font-size: 14px;
+                        color:  #9C9EA4;
+                        background: #fff;
+                        @include flex(null,null,space-between,center);
+                        i{
+                            font-size: 18px;
+                            color: #414042;
+                            transform: rotateZ(180deg);
+                        }
+                    }
+                }
+                .productDetails{
+                    .tips{
+                        height: 38px;
+                        @include flex(null,null,center,center);
+                        color: #9C9EA4;
+                        font-size: 14px;
+                        i{
+                            transform: rotateZ(90deg);
+                        }
+                    }
+                    .detailsMore{
+                        font-size: 0;
+                        p{
+                            color: red;
+                            font-size: 14px;
+                        }
+                        div{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                } 
+                .loading{
+                    height: 38px;
+                    text-align: center;
+                    background: url(../images/details/timg.gif) center center no-repeat;
+                }  
+            }
+        }
+        .returnTop{
+            position: fixed;
+            width: 0.4rem;
+            height: 0.4rem;
+            right: 0.1rem;
+            bottom: 1.5rem;
+            cursor: pointer;
+            display: none;
+            border-radius: 50%;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
         }
         footer{
             height: 0.5rem;
-            background: #000;
+            @include flex();
+            @include border((1px 0 0 0),#000,solid);
+            > div{
+                height: 100%;
+            }
+            .index{
+                width: 15%;
+                background: #ffb03f;
+                font-size: 15px;
+                color: #FFF;
+                cursor: pointer;
+                @include flex(null,null,center,center);
+            }
+            .collection{
+                width: 15%;
+                background: rgba(0, 0, 0, 0.8);
+                color: #FFF;
+                font-size: 15px;
+                cursor: pointer;
+                @include flex(column,null,center,center);
+            }
+            .cart{
+                width: 15%;
+                background: rgba(0, 0, 0, 0.8);
+                color: #FFF;
+                font-size: 15px;
+                cursor: pointer;
+                @include flex(column,null,center,center);
+            }
+            .number{
+                width: 25%;
+                @include flex();
+                > div{
+                    height: 100%;                   
+                    font-size: 18px;
+                    color: #FFF;
+                    width: 30%;
+                    cursor: pointer;
+                    background: rgba(0, 0, 0, 0.9);
+                    @include flex(null,null,center,center);
+                }
+                .number-main{
+                    text-align: center;
+                    width: 40%;
+                    background: #FFF;
+                    border: none;
+                    outline: none;
+                }
+            }
+            .joinCart{
+                width: 30%;
+                font-size: 15px;
+                color: #fff;
+                background: #f15353;
+                cursor: pointer;
+                @include flex(null,null,center,center);
+            }
         }
     }
 }

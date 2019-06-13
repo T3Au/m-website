@@ -1,0 +1,16 @@
+<ul class="mainNav-1">
+    {{each navbar.category}}
+    <li><a href="">
+        <img src="http://m.sjgo365.com/Content/themes/index/images/{{$value.src}}" alt="">
+        <p>{{$value.text}}</p>
+    </a></li>
+    {{/each}}
+</ul>
+<ul class="mainNav-2">
+    {{each navbar.channel}}
+    <li><a href="">
+        <img src="http://m.sjgo365.com/Content/themes/index/images/{{$value.src}}" alt="">
+        <p>{{$value.text}}</p>
+    </a></li>
+    {{/each}}
+</ul>

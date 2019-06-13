@@ -1,0 +1,22 @@
+<div class="area">
+    <div>
+        <div>
+            <h3>{{data.mainTitle}}</h3>
+            <p>{{data.subTitle}}</p>
+            <a href="">{{data.entryText}}</a>
+        </div>
+    </div>
+    <div>
+    </div>
+</div>
+<ul class="products">
+    {{each data.products}}
+        <li>
+            <a href="#details?{{$value.id}}">
+                <img src="http://img.sjgo365.com/ProductImage220/{{$value.id}}.jpg" alt="">
+                <p>{{$value.desc}}</p>
+                <strong class="currentPrice"></strong>
+            </a>
+        </li>
+    {{/each}}
+</ul>
