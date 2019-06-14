@@ -2,6 +2,7 @@
     flex:1;
     overflow: hidden;
     .index-electricAppliance{
+        min-height: 105%;
         > header{
             .swiper-container{
                 width: 100%;
@@ -34,6 +35,7 @@
                     background: rgb(238, 215, 244);
                     border-top-left-radius: 10px;
                     border-top-right-radius: 10px;
+                    overflow: hidden;
                     .selectHeader{
                         height: 0.42rem;
                         @include flex();
@@ -122,19 +124,49 @@
                     }
                 }
             }
-        }
-        .returnTop{
-            position: fixed;
-            width: 0.4rem;
-            height: 0.4rem;
-            right: 0.1rem;
-            bottom: 1.5rem;
-            cursor: pointer;
-            display: none;
-            border-radius: 50%;
-            overflow: hidden;
-            img{
-                width: 100%;
+            .newProducts{
+                @include flex(column,null,null,center);
+                h2{
+                    width: 96%;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    color: #222;
+                    margin: 0.07rem 0;
+                    @include border((0 0 1px 0), #222, solid);
+                    @include flex(null,null,center,center);
+                }
+                div{
+                    width: 96%;
+                    ul{
+                        @include flex(null,wrap,flex-start);
+                        li{
+                            width: 33%;
+                            padding: 2px 4px;
+                            a{
+                                background: #fff;
+                                display: block;
+                                height: 100%;
+                                @include flex(column,null,center,center);
+                                @include border(2px,#ddd,solid,6px);
+                                img{
+                                    width: 80%;
+                                }
+                                p{
+                                    height: 32px;
+                                    font-size: 12px;
+                                    line-height: 1.2;
+                                    color: #333;
+                                    padding: 5px;
+                                    @include ellipsis(null,2);
+                                }
+                                strong{
+                                    font-size: 18px;
+                                    color: #f00;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

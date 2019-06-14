@@ -4,6 +4,7 @@ import indexElectricAppliance from "../controllers/index-electricAppliance"
 import indexActive from "../controllers/index-active"
 import indexCart from "../controllers/index-cart"
 import indexMy from "../controllers/index-my"
+import indexSearch from "../controllers/index-search"
 import details from "../controllers/details"
 class Router {
     constructor(obj){
@@ -15,6 +16,7 @@ class Router {
             "index/active" : indexActive,
             "index/cart" : indexCart,
             "index/my" : indexMy,
+            "index/search" : indexSearch,
             "details" : details
         }
         this.init()

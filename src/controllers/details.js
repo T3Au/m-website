@@ -12,7 +12,10 @@ async function reader(){
         scrollY: true,
         tap: true,
         bounce: {
-            top: false
+            top: false,
+            bottom: true,
+            left: false,
+            right: false
         },
         probeType: 3
     })

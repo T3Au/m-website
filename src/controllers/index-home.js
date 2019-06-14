@@ -3,12 +3,12 @@ import indexHomeSlider from "./index-home/slider"
 import indexHomeNavbar from "./index-home/navbar"
 import indexHomeFlashSale from "./index-home/flashSale"
 import indexHomeDynamicActs from "./index-home/dynamicActs"
-async function reader(){
+function reader(){
     $(".index-main").html(indexHome)
-    await indexHomeSlider.reader()
-    await indexHomeNavbar.reader()
-    await indexHomeFlashSale.reader()
-    await indexHomeDynamicActs.reader()
+    indexHomeSlider.reader()
+    indexHomeNavbar.reader()
+    indexHomeFlashSale.reader()
+    indexHomeDynamicActs.reader()
     let homeScroll = new BScroll('.index-home>main',{
         scrollY: true,
         click: true,
@@ -32,7 +32,7 @@ async function reader(){
                 })
         }
     })
-    $("index>nav a").tap(function(e){
+    $("index-home>header>header>a").tap(function(e){
         e.preventDefault()
     })
 }

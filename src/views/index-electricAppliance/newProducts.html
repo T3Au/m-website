@@ -1,0 +1,13 @@
+<ul>
+    {{each newProducts}}
+        <li><a href="#details?{{$value.id}}">
+            <img src="./images/elec/u=4246834486,3428281355&fm=26&gp=0.jpg" data="http://img.sjgo365.com/ProductImage220/{{$value.id}}.jpg" alt="">
+            <p>{{$value.desc}}</p>
+            {{if $value.salePrice == ""}}
+                <strong>￥{{$value.staticPrice}}</strong>
+            {{else}}
+                <strong>￥{{$value.salePrice}}</strong>
+            {{/if}}
+        </a></li>
+    {{/each}}
+</ul>

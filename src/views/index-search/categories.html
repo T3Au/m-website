@@ -1,0 +1,14 @@
+<ul>
+    {{each categories}}
+        <li>
+            {{$value.category}}
+            <ul>
+                {{each $value.cateItems}}
+                    <li>
+                        <a href="">{{$value.text}}</a>
+                    </li>
+                {{/each}}
+            </ul>
+        </li>
+    {{/each}}
+</ul>

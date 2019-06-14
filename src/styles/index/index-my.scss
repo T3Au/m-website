@@ -1,0 +1,91 @@
+.index-my{
+    flex:1;
+    overflow: hidden;
+    > header{
+        height: 0.5rem;
+        background: #da322f;
+        padding: 0 10px;
+        @include flex(null,null,center,center);
+        > a{
+            position: absolute;
+            left: 0.1rem;
+            i{
+                font-size: 0.28rem;
+                color: #fff;
+            }
+        }
+        > h2{
+            text-align: center;
+            color: #fff;
+            font-size: 0.18rem;
+            font-weight: normal;
+        }
+    }
+    form{
+        margin-top: 0.1rem;
+        background: #fff;
+        div{
+            width: 75%;
+            margin: 0 auto;
+            @include flex(null,null,flex-start,center);
+            i{
+                font-size: 0.13rem;
+            }
+            input{
+                flex: 1;
+                width: 90%;
+                border: none;
+                outline: none;
+                margin-left: 0.1rem;
+                padding: 0.06rem 0;
+                color: #767676;
+                height: 0.42rem;
+                border-bottom: 1px solid #c8c8c8;
+            }
+        }
+        .password{
+            input{
+                border: none;
+            }
+        }
+    }
+    .tip{
+        width: 75%;
+        margin: 0 auto;
+        padding: 19px 0 30px;
+        @include flex(null,null,space-between);
+        font-size: 0.12rem;
+        line-height: 0.13rem;
+        .show{
+            input{
+                width: 0.13rem;
+                height: 0.13rem;
+                vertical-align: middle;
+            }
+        }
+        div{
+            display: inline-block;
+            a{
+                color: #da322f;
+                font-size: 0.12rem;
+                line-height: 0.13rem;
+                height: 0.13rem;
+                margin-right: 0.08rem;
+            }
+            a:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    button{
+        width: 75%;
+        height: 0.4rem;
+        margin: 0 auto;
+        background: #da322f;
+        color: #FFF;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        @include flex(null,null,center,center);
+    }
+}
